@@ -62,3 +62,12 @@ Add the server:
 
 **Example Prompt:** Compare the demographic statistics of the following zipcodes: 02139 and 10036.
 
+### Project Structure
+```plaintext
+zipcode-mcp/
+├── README.md              # documentation
+├── compare-zipcodes.py    # main script for Claude integration
+├── server.py              # MCP server implementation
+├── pyproject.toml         # Python project configuration
+└── uv.lock                # uv package manager lock file
+
