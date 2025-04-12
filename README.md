@@ -47,11 +47,11 @@ Add the server:
 ```bash
 {
     "mcpServers": {
-        "zipcode-mcp": {
+        "mcp-compare-zipcodes": {
             "command": "uv",
             "args": [
                 "--directory",
-                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/zipcode-mcp",
+                "/ABSOLUTE/PATH/TO/PARENT/FOLDER/mcp-compare-zipcodes",
                 "run",
                 "compare-zipcodes.py"
             ]
@@ -64,7 +64,7 @@ Add the server:
 
 ### Project Structure
 ```plaintext
-zipcode-mcp/
+mcp-compare-zipcodes/
 ├── README.md              # documentation
 ├── compare-zipcodes.py    # main script for Claude integration
 ├── server.py              # MCP server implementation
