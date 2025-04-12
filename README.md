@@ -7,7 +7,7 @@ This repository also includes instructions on how to integrate the MCP server wi
 ## Features
 
 - Compares zip code demographics based on `age` x `gender` x `ethnicity` using Z-score based anomaly detection
-- Synthetic population and household census data integration via `.pkl` files generated from AgentTorch
+- Synthetic population and household census data integration via `.pkl` files generated from [AgentTorch](https://github.com/AgentTorch/AgentTorch)
 
 ---
 
